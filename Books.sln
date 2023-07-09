@@ -5,13 +5,11 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksWeb", "BooksWeb\BooksWeb.csproj", "{1D1D6A2C-0086-4E6C-B145-0A7F59480BCB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksWebRazor_Temp", "BooksWebRazor_Temp\BooksWebRazor_Temp.csproj", "{0DDF2B9C-DA88-44DE-8D36-AC45F2083477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.DataAccess", "Books.DataAccess\Books.DataAccess.csproj", "{6FF4857E-B276-4705-824E-7F03EAE262C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.DataAccess", "Books.DataAccess\Books.DataAccess.csproj", "{6FF4857E-B276-4705-824E-7F03EAE262C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.Models", "Books.Models\Books.Models.csproj", "{EA489C5D-B59E-4560-A61C-B96AFBDBCE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Models", "Books.Models\Books.Models.csproj", "{EA489C5D-B59E-4560-A61C-B96AFBDBCE53}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Utility", "Books.Utility\Books.Utility.csproj", "{1B13F4F5-BBB1-43B7-9E78-80567AA759D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.Utility", "Books.Utility\Books.Utility.csproj", "{1B13F4F5-BBB1-43B7-9E78-80567AA759D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{1D1D6A2C-0086-4E6C-B145-0A7F59480BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D1D6A2C-0086-4E6C-B145-0A7F59480BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D1D6A2C-0086-4E6C-B145-0A7F59480BCB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0DDF2B9C-DA88-44DE-8D36-AC45F2083477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DDF2B9C-DA88-44DE-8D36-AC45F2083477}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DDF2B9C-DA88-44DE-8D36-AC45F2083477}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DDF2B9C-DA88-44DE-8D36-AC45F2083477}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6FF4857E-B276-4705-824E-7F03EAE262C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6FF4857E-B276-4705-824E-7F03EAE262C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FF4857E-B276-4705-824E-7F03EAE262C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
