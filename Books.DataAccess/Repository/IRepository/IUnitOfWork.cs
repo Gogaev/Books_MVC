@@ -10,7 +10,8 @@ namespace Books.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category{ get; }
         IProductRepository Product{ get; }
-        IShoppingCart ShoppingCart { get; }
+        IShoppingCartRepository ShoppingCart { get; }
+        IApplicationUserRepository ApplicationUser { get; }
 
         void Save();
     }

@@ -37,9 +37,12 @@ namespace Books.DataAccess.Repository
             dbSet.RemoveRange(items);
         }
 
-        public IEnumerable<T> GetAll(string? incluedProperties = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter, string? incluedProperties = null)
         {
             IQueryable<T> query = dbSet;
+            if(filter != null)
+                query = query.Where(filter);
+            
             if(!string.IsNullOrEmpty(incluedProperties))
             {
                 foreach(var item in incluedProperties
@@ -48,6 +51,7 @@ namespace Books.DataAccess.Repository
                     query = query.Include(item);
                 }
             }
+
             return query.ToList();
         }
 
